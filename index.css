@@ -1,0 +1,43 @@
+/* Reset de estilo */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: 'Arial', sans-serif;
+  background-color: #f0f4f8;
+  color: #333;
+}
+
+input, button {
+  padding: 10px;
+  border-radius: 4px;
+  border: 1px solid #ddd;
+}
+
+button:disabled {
+  background-color: #f4f4f4;
+}
+
+button {
+  background-color: #4CAF50;
+  color: white;
+  border: none;
+}
+
+button:hover:not(:disabled) {
+  background-color: #45a049;
+}
+
+.card {
+  background-color: white;
+  padding: 20px;
+  border-radius: 8px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.card-content {
+  margin-top: 20px;
+}
